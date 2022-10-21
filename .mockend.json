@@ -7,7 +7,10 @@
   },
   "Food": {
     "name": { "string": {} },
-    "price": { "int": {} },
+    "price": { "int": {
+      "min": 10000,
+      "max": 200000
+    } },
     "category": {
       "belongsTo": "Category"
     }
