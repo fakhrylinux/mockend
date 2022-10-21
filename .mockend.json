@@ -1,7 +1,15 @@
 {
-  "User": {
-    "title": {
-      "string": {}
+  "Category": {
+    "name": { "string": {} },
+    "foods": {
+      "hasMany": "Food"
+    }
+  },
+  "Food": {
+    "name": { "string": {} },
+    "price": { "int": {} },
+    "category": {
+      "belongsTo": "Category"
     }
   }
 }
