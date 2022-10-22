@@ -29,7 +29,12 @@
     }
   },
   "Order": {
-    "table" : "Table",
+    "table" : {
+      "int" :{
+        "min":1,
+        "max":30
+      }
+    },
     "items": [
       {
         "quantity": {"min": 1, "max" : 10},
