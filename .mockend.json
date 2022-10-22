@@ -1,6 +1,7 @@
 {
   "Category": {
-    "name": { "string": {} },
+    "name": { 
+      "string": {} },
     "foods": {
       "hasMany": "Food"
     }
@@ -35,11 +36,11 @@
         "max":30
       }
     },
-    "items": [
-      {
+    "items": {
+      
         "quantity": {"min": 1, "max" : 10},
         "item_id": {"min": 1, "max": 100}
-      }
-    ]
+      
+    }
   }
 }
